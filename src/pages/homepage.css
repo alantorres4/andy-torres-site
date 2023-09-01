@@ -58,6 +58,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.navbar-links-group {
+  align-items: flex-start;
+  justify-content: left;
+  text-align: left;
+  /* background-color: pink; */
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 nav .logo {
@@ -67,13 +80,15 @@ nav .logo {
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .navbar-links {
   text-decoration: none;
   color: whitesmoke;
   font-size: 17px;
+  /* align-items: left; */
 }
 
 .content {

@@ -13,10 +13,10 @@ function Homepage() {
         </video>
 
         <nav>
-          <a href="/">
+          <a href="/" className="navbar-logo">
             <img src={andyLogo} alt="andy torres logo" className="logo" />
           </a>
-          <ul>
+          <ul className="navbar-links-group">
             <li>
               <Link to="/projects" className="navbar-links">projects</Link>
             </li>
