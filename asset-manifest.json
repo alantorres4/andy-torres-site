@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/andy-torres-site/static/css/main.ae496fde.css",
-    "main.js": "/andy-torres-site/static/js/main.3b60ba44.js",
+    "main.js": "/andy-torres-site/static/js/main.ce158478.js",
     "static/js/787.ef65a5c0.chunk.js": "/andy-torres-site/static/js/787.ef65a5c0.chunk.js",
     "static/media/test.mp4": "/andy-torres-site/static/media/test.dc250fe67e1e8c283e40.mp4",
     "static/media/shortened-background-shiny.mp4": "/andy-torres-site/static/media/shortened-background-shiny.c15d86eec5d82bbe9165.mp4",
@@ -63,11 +63,11 @@
     "static/media/andytorreslogo.png": "/andy-torres-site/static/media/andytorreslogo.ab717a7ee204a6dc94a5.png",
     "index.html": "/andy-torres-site/index.html",
     "main.ae496fde.css.map": "/andy-torres-site/static/css/main.ae496fde.css.map",
-    "main.3b60ba44.js.map": "/andy-torres-site/static/js/main.3b60ba44.js.map",
+    "main.ce158478.js.map": "/andy-torres-site/static/js/main.ce158478.js.map",
     "787.ef65a5c0.chunk.js.map": "/andy-torres-site/static/js/787.ef65a5c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae496fde.css",
-    "static/js/main.3b60ba44.js"
+    "static/js/main.ce158478.js"
   ]
 }
