@@ -65,10 +65,10 @@ nav {
 }
 
 .navbar-links-group {
-  align-items: flex-start;
-  justify-content: left;
-  text-align: left;
-  /* background-color: pink; */
+  align-content: center;
+  align-items: center;
+  text-align: center;
+
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -80,15 +80,19 @@ nav .logo {
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .navbar-links {
   text-decoration: none;
   color: whitesmoke;
-  font-size: 17px;
-  /* align-items: left; */
+  font-size: medium;
+  transition: all 0.44s ease;
+}
+
+.navbar-links:hover {
+  color: #fed35d;
 }
 
 .content {
@@ -98,9 +102,10 @@ nav ul li {
 }
 
 .homepage-name {
-  font-family: 'Major Mono Display';
-  color: #fffbe1;
-  letter-spacing: 10px;
+  width: 44%;
+  align-self: center;
+  height: auto;
+  filter: opacity(80%);
 }
 
 .homepage-cta-button {

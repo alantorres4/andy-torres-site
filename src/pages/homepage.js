@@ -1,5 +1,6 @@
 import './homepage.css';
 import andyLogo from '../assets/andytorreslogo.png';
+import andyFullLogoName from '../assets/full-andy-logo-name.png';
 import testVideo from '../assets/test.mp4';
 import {Link} from 'react-router-dom';
 
@@ -21,6 +22,9 @@ function Homepage() {
               <Link to="/projects" className="navbar-links">projects</Link>
             </li>
             <li>
+              <Link to="/clients" className="navbar-links">clients</Link>
+            </li>
+            <li>
               <Link to="/bio" className="navbar-links">bio</Link>
             </li>
             <li>
@@ -31,7 +35,7 @@ function Homepage() {
 
 
         <div className="content">
-          <h1 className="homepage-name">Andy torres</h1>
+          <img src={andyFullLogoName} alt="andy torres" className="homepage-name" />
             <div>
               <button className='homepage-cta-button'>
                 <Link to="/projects" className="atag-no-style">

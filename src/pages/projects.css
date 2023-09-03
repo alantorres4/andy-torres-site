@@ -73,14 +73,14 @@ nav .logo {
 nav ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .navbar-links {
   text-decoration: none;
   color: whitesmoke;
-  font-size: 17px;
+  font-size: medium;
 }
 
 .content {
@@ -227,13 +227,13 @@ nav ul li {
 .grid-item .grid-container-text-title {
   font-size: larger;
   font-family: 'Syne', sans-serif;
-  color: #ffd86c;
+  color: whitesmoke;
 }
 
 .grid-item .grid-container-text-subtitle {
-  font-size: medium;
+  font-size: small;
   font-family: 'Syne', sans-serif;
-  color: whitesmoke;
+  color: #fed35d;
   padding-top: 4px;
   padding-bottom: 8px;
 }
