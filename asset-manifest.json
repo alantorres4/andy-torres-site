@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andy-torres-site/static/css/main.ae496fde.css",
+    "main.css": "/andy-torres-site/static/css/main.a864ee3a.css",
     "main.js": "/andy-torres-site/static/js/main.2f7b51e9.js",
     "static/js/787.ef65a5c0.chunk.js": "/andy-torres-site/static/js/787.ef65a5c0.chunk.js",
     "static/media/test.mp4": "/andy-torres-site/static/media/test.dc250fe67e1e8c283e40.mp4",
@@ -62,12 +62,12 @@
     "static/media/chiefs-superbowl-lvii-2.jpg": "/andy-torres-site/static/media/chiefs-superbowl-lvii-2.d4f7e6e1ab5f9efe90a2.jpg",
     "static/media/andytorreslogo.png": "/andy-torres-site/static/media/andytorreslogo.ab717a7ee204a6dc94a5.png",
     "index.html": "/andy-torres-site/index.html",
-    "main.ae496fde.css.map": "/andy-torres-site/static/css/main.ae496fde.css.map",
+    "main.a864ee3a.css.map": "/andy-torres-site/static/css/main.a864ee3a.css.map",
     "main.2f7b51e9.js.map": "/andy-torres-site/static/js/main.2f7b51e9.js.map",
     "787.ef65a5c0.chunk.js.map": "/andy-torres-site/static/js/787.ef65a5c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae496fde.css",
+    "static/css/main.a864ee3a.css",
     "static/js/main.2f7b51e9.js"
   ]
 }
