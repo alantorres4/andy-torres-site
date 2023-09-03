@@ -48,19 +48,13 @@ img {
 }
 
 .grid-item-client {
-  overflow: hidden; /* Ensure images fit within their container */
-  background-color: #ffffff;
+  overflow: hidden;
   border-top-left-radius: 36px;
   border-bottom-right-radius: 36px;
 
   position: relative;
-  display: inline-block; /* To shrink-wrap the container around the image */
-  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2); /* Initial shadow */
+  display: inline-block;
   transition: box-shadow 0.2s ease;
-}
-
-.grid-item-client:hover {
-  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3); /* Larger shadow on hover */
 }
 
 .grid-item-client img {
@@ -71,7 +65,6 @@ img {
 
 .grid-item-client img:hover {
   padding: 14px;
-  filter: none;
 } 
 
 /* Media query for mobile responsiveness */
