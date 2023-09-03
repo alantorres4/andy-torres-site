@@ -7,7 +7,7 @@ function Bio() {
     <div>
       <div className="hero_bio">
         <nav>
-          <a href="/" className="navbar-logo">
+          <a href="#" className="navbar-logo">
             <img src={andyLogo} alt="andy torres logo" className="logo" />
           </a>
           <ul className="navbar-links-group">
