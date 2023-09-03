@@ -21,7 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/clients" element={<Clients />} />
 
-        <Route path="*" element={<h1 style={{color: 'whitesmoke', fontFamily: 'Major Mono Display'}}>404: page not found</h1>} />
+        {/* <Route path="/*" element={<h1 style={{color: 'whitesmoke', fontFamily: 'Major Mono Display'}}>404: page not found</h1>} /> */}
       </Routes>
     </Router>
     </>
