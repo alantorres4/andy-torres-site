@@ -120,7 +120,7 @@ function Projects() {
         <div className="grid-item">
         <Fade triggerOnce>
             <a href="https://www.youtube.com/watch?v=pUbxOo3QraE" target="__blank">
-              <img src={cbsSportsWorldCup} alt="Video Thumbnail" />
+              <img src={cbsSportsWorldCup} alt="Video Thumbnail"/>
             </a>
             <div className="grid-container-text">
                 <h3 className="grid-container-text-title">World Cup Final</h3>

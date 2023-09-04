@@ -28,11 +28,11 @@ body {
 
   margin-bottom: 80px;
   @media (max-width: 600px) {
-    margin-top: 120px;
+    margin-top: 100px;
   }
 
   @media (max-width: 320px) {
-    margin-top: 160px;
+    margin-top: 100px;
   }
 }
 
