@@ -21,9 +21,9 @@ function Homepage() {
             <li>
               <Link to="/projects" className="navbar-links">projects</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/clients" className="navbar-links">clients</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/bio" className="navbar-links">bio</Link>
             </li>
