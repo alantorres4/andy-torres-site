@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.87e42af1.css",
+    "main.css": "/static/css/main.ff79ab76.css",
     "main.js": "/static/js/main.86698d1e.js",
     "static/js/787.ef65a5c0.chunk.js": "/static/js/787.ef65a5c0.chunk.js",
     "static/media/test.mp4": "/static/media/test.dc250fe67e1e8c283e40.mp4",
@@ -62,12 +62,12 @@
     "static/media/chiefs-superbowl-lvii-2.jpg": "/static/media/chiefs-superbowl-lvii-2.d4f7e6e1ab5f9efe90a2.jpg",
     "static/media/andytorreslogo.png": "/static/media/andytorreslogo.ab717a7ee204a6dc94a5.png",
     "index.html": "/index.html",
-    "main.87e42af1.css.map": "/static/css/main.87e42af1.css.map",
+    "main.ff79ab76.css.map": "/static/css/main.ff79ab76.css.map",
     "main.86698d1e.js.map": "/static/js/main.86698d1e.js.map",
     "787.ef65a5c0.chunk.js.map": "/static/js/787.ef65a5c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87e42af1.css",
+    "static/css/main.ff79ab76.css",
     "static/js/main.86698d1e.js"
   ]
 }
