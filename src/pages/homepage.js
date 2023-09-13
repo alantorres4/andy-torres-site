@@ -44,11 +44,6 @@ function Homepage() {
               </button>
             </div>
         </div>
-
-        <footer className="homepage-footer">
-          <p>&copy; {new Date().getFullYear()} AT MEDIA GROUP LLC</p>
-        </footer>
-
       </div>
     </div>
   );
