@@ -46,7 +46,7 @@ function Homepage() {
         </div>
 
         <footer className="homepage-footer">
-          <p>&copy; {new Date().getFullYear()} Andy Torres</p>
+          <p>&copy; {new Date().getFullYear()} AT MEDIA GROUP LLC</p>
         </footer>
 
       </div>
