@@ -33,7 +33,50 @@ import denverNuggets2 from '../assets/NBA-Finals-Promo.jpeg';
 import superBowlLVIIring from '../assets/SBLVII-Ring-Reveal-chiefs.jpeg';
 import uscShowOpen from '../assets/USC-Show-Open.jpeg';
 
+// Client logos
+import clientAdidas from '../assets/AT-ClientLogos/Adidas.png';
+import clientAngryOrchard from '../assets/AT-ClientLogos/AngryOrchard.png';
+import clientAtlantaHawks from '../assets/AT-ClientLogos/AtlantaHawks.png';
+import clientBrooklynNets from '../assets/AT-ClientLogos/BrooklynNets.png';
+import clientCarolinaPanthers from '../assets/AT-ClientLogos/CarolinaPanthers.png';
+import clientChicagoBulls from '../assets/AT-ClientLogos/ChicagoBulls.png';
+import clientCoinbase from '../assets/AT-ClientLogos/Coinbase.png';
+import clientDallasMavericks from '../assets/AT-ClientLogos/DallasMavericks.png';
+import clientDenverNuggets from '../assets/AT-ClientLogos/DenverNuggets.png';
+import clientEASports from '../assets/AT-ClientLogos/EASports.png';
+import clientFCCincinnati from '../assets/AT-ClientLogos/FCCincinnati.png';
+import clientFIFAWordCupQatar from '../assets/AT-ClientLogos/FIFAWorldCupQatar.png';
+import clientIgnite from '../assets/AT-ClientLogos/Ignite.png';
+import clientKansasCityChiefs from '../assets/AT-ClientLogos/KansasCityChiefs.png';
+import clientLAClippers from '../assets/AT-ClientLogos/LAClippers.png';
+import clientLosAngelesChargers from '../assets/AT-ClientLogos/LosAngelesChargers.png';
+import clientLouisvilleCardinals from '../assets/AT-ClientLogos/LouisvilleCardinals.png';
+import clientMahomes from '../assets/AT-ClientLogos/Mahomes.png';
+import clientNBA from '../assets/AT-ClientLogos/NBA.png';
+import clientNewYorkKnicks from '../assets/AT-ClientLogos/NewYorkKnicks.png';
+import clientOutbackSteakhouse from '../assets/AT-ClientLogos/OutbackSteakhouse.png';
+import clientPaniniOfAmerica from '../assets/AT-ClientLogos/PaniniOfAmerica.png';
+import clientPhoenixSuns from '../assets/AT-ClientLogos/PhoenixSuns.png';
+import clientPuma from '../assets/AT-ClientLogos/Puma.png';
+import clientRollingLoud from '../assets/AT-ClientLogos/RollingLoud.png';
+import clientSF49ers from '../assets/AT-ClientLogos/SF49ers.png';
+import clientSuperBowlLVII from '../assets/AT-ClientLogos/SuperBowlLVII.png';
+import clientTheCrewLeague from '../assets/AT-ClientLogos/TheCrewLeague.png';
+import clientUFC from '../assets/AT-ClientLogos/UFC.png';
+import clientUnderArmour from '../assets/AT-ClientLogos/UnderArmour.png';
+import clientUSC from '../assets/AT-ClientLogos/USC.png';
+import clientCBSSports from '../assets/AT-ClientLogos/CBSSports.png';
+
 function Projects() {
+
+  const logoImages = [clientUnderArmour, clientAdidas, clientPuma, clientEASports, clientCoinbase, clientPaniniOfAmerica, 
+                      clientSuperBowlLVII, clientFIFAWordCupQatar, clientRollingLoud, clientUFC, clientNBA, clientMahomes,
+                      clientOutbackSteakhouse, clientAngryOrchard, clientTheCrewLeague, clientKansasCityChiefs, clientLosAngelesChargers, clientSF49ers,
+                      clientCarolinaPanthers, clientUSC, clientLouisvilleCardinals, clientFCCincinnati, clientChicagoBulls, clientNewYorkKnicks, clientCBSSports,
+                      clientLAClippers, clientPhoenixSuns, clientDenverNuggets, clientBrooklynNets, clientDallasMavericks, clientIgnite,
+                      clientAtlantaHawks,
+  ]
+
   return (
     <div>
       <div className="hero_projects">
@@ -77,32 +120,30 @@ function Projects() {
             </div>
           </div>
           <div className="highlight-text">
-            <h2 style={{fontFamily: 'Major Mono Display'}}>2023 highlight reel</h2>
+            <h2 style={{fontFamily: 'Syne'}}>2023 HIGHLIGHT REEL</h2>
             <br></br>
             <p>
               <a href="https://www.youtube.com/watch?v=oKDpEokr3Bw" className="atag-no-style" target="__blank">Watch <i className="fa fa-play-circle"></i> </a>
             </p>
-
-            <br></br>
-            <p>It's officially been 1 year since I decided to start my own business. 
-              Balancing freelance work and life has been a learning experience but I wouldn't 
-              change any of it. I've learned a lot these last 365 days - from business development 
-              and investments to collaboration and taking dedicated time to celebrate</p>
-            <br></br>
-            <p>I want to give a big thank you to every single client for your support, trust and 
-              opportunities to work on exciting projects. Thank you to everyone in my network for 
-              your support, referrals and wisdom.</p>
-            <br></br>
-            <p>My favorite part of this journey has been the huge increase in connections with 
-              other artists. I'm excited to continue collaborating with even more this next 
-              year - let's connect!</p>
-            <br></br>
             <br></br>
             <p>cover art: <a href="https://www.instagram.com/leahkern/?hl=en" className="atag-no-style" target="__blank">@leahkerndesign</a></p>
           </div>
         </div>
 
       </div>
+
+      <div className="client-logo-grid-container">
+        <div className="client-logo-grid">
+          {logoImages.map((image, index) => (
+            <Fade triggerOnce>
+              <div className="client-logo-item" key={index}>
+                <img src={image} alt={`Logo ${index + 1}`} />
+              </div>
+            </Fade>
+          ))}
+        </div>
+      </div>
+
 
       <div className="grid-container">
         <div className="grid-item">
