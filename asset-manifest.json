@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.318965e7.css",
-    "main.js": "/static/js/main.e75df37e.js",
+    "main.css": "/static/css/main.89038f5d.css",
+    "main.js": "/static/js/main.8432ee1d.js",
     "static/js/787.ef65a5c0.chunk.js": "/static/js/787.ef65a5c0.chunk.js",
     "static/media/test.mp4": "/static/media/test.dc250fe67e1e8c283e40.mp4",
     "static/media/back-video-projects.mp4": "/static/media/back-video-projects.3d48aa40f376220e294c.mp4",
@@ -59,13 +59,14 @@
     "static/media/excel-sports-nba.jpg": "/static/media/excel-sports-nba.706d1e35464a31a3ed35.jpg",
     "static/media/full-andy-logo-name.png": "/static/media/full-andy-logo-name.64578f4c946ffcfe3902.png",
     "static/media/andytorreslogo.png": "/static/media/andytorreslogo.ab717a7ee204a6dc94a5.png",
+    "static/media/AngryOrchard.png": "/static/media/AngryOrchard.fb1808e0c588302793ea.png",
     "index.html": "/index.html",
-    "main.318965e7.css.map": "/static/css/main.318965e7.css.map",
-    "main.e75df37e.js.map": "/static/js/main.e75df37e.js.map",
+    "main.89038f5d.css.map": "/static/css/main.89038f5d.css.map",
+    "main.8432ee1d.js.map": "/static/js/main.8432ee1d.js.map",
     "787.ef65a5c0.chunk.js.map": "/static/js/787.ef65a5c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.318965e7.css",
-    "static/js/main.e75df37e.js"
+    "static/css/main.89038f5d.css",
+    "static/js/main.8432ee1d.js"
   ]
 }
