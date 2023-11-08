@@ -16,7 +16,7 @@ import sanFran49ers from '../assets/san-fran-49ers.png';
 import chicagoBulls from '../assets/chicago-bulls.jpg';
 import laClippers from '../assets/la-clippers.jpg';
 import dallasMavs from '../assets/dallas-mavs.jpg';
-import sunsCGI2 from '../assets/phoenix-suns-2.jpg';
+import sunsCGI2 from '../assets/phoenix-suns-2.png';
 import excelSportsNBA from '../assets/excel-sports-nba.jpg';
 import chicagoBullsCoinbase from '../assets/chicago-bulls-coinbase.jpg';
 import chiefsPatrickMahomes from '../assets/chiefs-patrick-mahomes.jpg';
