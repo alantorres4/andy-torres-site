@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.89038f5d.css",
-    "main.js": "/static/js/main.8432ee1d.js",
+    "main.js": "/static/js/main.08437498.js",
     "static/js/787.ef65a5c0.chunk.js": "/static/js/787.ef65a5c0.chunk.js",
     "static/media/test.mp4": "/static/media/test.dc250fe67e1e8c283e40.mp4",
     "static/media/back-video-projects.mp4": "/static/media/back-video-projects.3d48aa40f376220e294c.mp4",
@@ -16,7 +16,6 @@
     "static/media/chicago-bulls-2.jpg": "/static/media/chicago-bulls-2.0472cbc2d33f4f8e823c.jpg",
     "static/media/chiefs-promo-1.jpg": "/static/media/chiefs-promo-1.d9452200f8369aa3215e.jpg",
     "static/media/brooklyn-nets-show-open.jpeg": "/static/media/brooklyn-nets-show-open.58f08c986bee5373f872.jpeg",
-    "static/media/phoenix-suns-2.jpg": "/static/media/phoenix-suns-2.12b6218229db4eb82835.jpg",
     "static/media/cbs-sports-world-cup-final.jpg": "/static/media/cbs-sports-world-cup-final.e87c05f100a2c291f663.jpg",
     "static/media/Los-Angeles-Chargers-Show-Open.jpeg": "/static/media/Los-Angeles-Chargers-Show-Open.ac212ee3ac8a1ec81ec9.jpeg",
     "static/media/atl-hawks-upside-down.png": "/static/media/atl-hawks-upside-down.5d8ffdf27f18b6c0f2b1.png",
@@ -35,6 +34,7 @@
     "static/media/USC-Show-Open.jpeg": "/static/media/USC-Show-Open.c3047aee552a304edefe.jpeg",
     "static/media/suns-cgi-sfx.jpg": "/static/media/suns-cgi-sfx.7112323f2571c2964841.jpg",
     "static/media/client_brooksKoepka.png": "/static/media/client_brooksKoepka.681e99274198eb836ef9.png",
+    "static/media/phoenix-suns-2.png": "/static/media/phoenix-suns-2.4ea0b055ef4b84739a5c.png",
     "static/media/bengals.png": "/static/media/bengals.c8704ba170c8c234efe9.png",
     "static/media/client_mizzou.png": "/static/media/client_mizzou.d56c98a91e6cadb2fc53.png",
     "static/media/client_chicago_bulls.png": "/static/media/client_chicago_bulls.67a1ba11eb7c1254ac51.png",
@@ -62,11 +62,11 @@
     "static/media/AngryOrchard.png": "/static/media/AngryOrchard.fb1808e0c588302793ea.png",
     "index.html": "/index.html",
     "main.89038f5d.css.map": "/static/css/main.89038f5d.css.map",
-    "main.8432ee1d.js.map": "/static/js/main.8432ee1d.js.map",
+    "main.08437498.js.map": "/static/js/main.08437498.js.map",
     "787.ef65a5c0.chunk.js.map": "/static/js/787.ef65a5c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89038f5d.css",
-    "static/js/main.8432ee1d.js"
+    "static/js/main.08437498.js"
   ]
 }
