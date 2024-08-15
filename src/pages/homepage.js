@@ -3,29 +3,34 @@ import andyLogo from '../assets/andytorreslogo.png';
 import andyFullLogoName from '../assets/full-andy-logo-name.png';
 import backgroundVideo from '../assets/test.mp4';
 import {Link} from 'react-router-dom';
+import {Cursor} from '../Cursor.js';
+import {ProjectsLinkScrambleText, AboutLinkScrambleText, ContactLinkScrambleText, View2023ReelScrambleText} from '../ScrambleTexts.js';
 
 function Homepage() {
+
+
   return (
     <div>
+      <Cursor />
       <div className="hero">
 
         <video autoPlay loop muted playsInline className="back-video">
           <source src={backgroundVideo} type="video/mp4" />
         </video>
 
-        <nav>
+        <nav> 
           <a href="#" className="navbar-logo">
             <img src={andyLogo} alt="andy torres logo" className="logo" />
           </a>
           <ul className="navbar-links-group">
             <li>
-              <Link to="/projects" className="navbar-links">[projects]</Link>
+              <Link to="/projects" className="navbar-links"><ProjectsLinkScrambleText /></Link>
             </li>
             <li>
-              <Link to="/bio" className="navbar-links">[bio]</Link>
+              <Link to="/bio" className="navbar-links"><AboutLinkScrambleText /></Link>
             </li>
             <li>
-              <Link to="/contact" className="navbar-links">[contact]</Link>
+              <Link to="/contact" className="navbar-links"><ContactLinkScrambleText /></Link>
             </li>
           </ul>
         </nav>
@@ -36,7 +41,7 @@ function Homepage() {
             <div>
               <button className='homepage-cta-button'>
                 <Link to="/projects" className="atag-no-style">
-                  2024 reel <i className="fa-solid fa-arrow-right fa-xs"></i>
+                  <View2023ReelScrambleText />
                 </Link>
               </button>
             </div>

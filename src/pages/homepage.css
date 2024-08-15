@@ -27,6 +27,7 @@ body {
   width: 15%;
   height: auto;
   max-width: 50%;
+  mix-blend-mode: difference;
 }
 
 .hero {
@@ -85,13 +86,11 @@ nav ul li {
   letter-spacing: .15rem;
   text-transform: uppercase !important;
   text-decoration: none;
-  color: whitesmoke;
+  /* color: whitesmoke; */
+  font-family: 'Heebo', 'Arial', 'Helvetica';
+  mix-blend-mode: difference;
   font-size: medium;
   transition: all 0.44s ease;
-}
-
-.navbar-links:hover {
-  color: #fed35d;
 }
 
 .content {
@@ -106,6 +105,7 @@ nav ul li {
   width: 20%;
   align-self: center;
   height: auto;
+  mix-blend-mode: difference;
   @media (max-width: 600px) {
     width: 66%;
   }
@@ -113,8 +113,9 @@ nav ul li {
 
 .homepage-cta-button {
   font-size: small;
-  font-family: 'Major Mono Display';
-  background-color: #74747b0c;
+  /* font-family: 'Major Mono Display'; */
+  font-family: 'Heebo', 'Arial', 'Helvetica';
+  background-color: #74747b00;
   color: whitesmoke;
   border-radius: 8px;
   margin-top: 8px;
