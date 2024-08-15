@@ -1,10 +1,12 @@
 import './bio.css';
 import { Link } from "react-router-dom";
 import andyLogo from '../assets/andytorreslogo.png';
+import {Cursor} from '../Cursor.js';
 
 function Bio() {
   return (
     <div>
+      <Cursor />
       <div className="hero_bio">
         <nav>
           <a href="#" className="navbar-logo">
@@ -12,16 +14,16 @@ function Bio() {
           </a>
           <ul className="navbar-links-group">
             <li>
-              <Link to="/projects" className="navbar-links">projects</Link>
+              <Link to="/projects" className="navbar-links">[PROJECTS]</Link>
             </li>
             {/* <li>
               <Link to="/clients" className="navbar-links">clients</Link>
             </li> */}
             <li>
-              <Link to="/bio" className="navbar-links">bio</Link>
+              <Link to="/bio" className="navbar-links">[ABOUT]</Link>
             </li>
             <li>
-              <Link to="/contact" className="navbar-links">contact</Link>
+              <Link to="/contact" className="navbar-links">[CONTACT]</Link>
             </li>
           </ul>
         </nav>

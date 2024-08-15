@@ -1,6 +1,8 @@
 import './projects.css';
+import {Cursor} from '../Cursor.js';
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+import {ProjectsLinkScrambleText, AboutLinkScrambleText, ContactLinkScrambleText, HighlightReel2023Text, CoverArtistNameText, SuperBowlLVIIShowOpenSubtitle} from '../ScrambleTexts.js';
 import backVideo from '../assets/back-video-projects.mp4';
 import andyLogo from '../assets/andytorreslogo.png';
 import thumbnailImage from '../assets/thumbnail_image.jpg';
@@ -80,6 +82,7 @@ function Projects() {
   return (
     <div>
       <div className="hero_projects">
+      <Cursor />
 
         <div className="back-video-container">
           <video autoPlay loop muted playsInline className="back-video-projects">
@@ -92,17 +95,14 @@ function Projects() {
             <img src={andyLogo} alt="andy torres logo" className="logo" />
           </a>
           <ul className="navbar-links-group">
-            <li>
-              <Link to="/projects" className="navbar-links">projects</Link>
-            </li>
-            {/* <li>
-              <Link to="/clients" className="navbar-links">clients</Link>
-            </li> */}
-            <li>
-              <Link to="/bio" className="navbar-links">bio</Link>
+          <li>
+              <Link to="/projects" className="navbar-links"><ProjectsLinkScrambleText /></Link>
             </li>
             <li>
-              <Link to="/contact" className="navbar-links">contact</Link>
+              <Link to="/bio" className="navbar-links"><AboutLinkScrambleText /></Link>
+            </li>
+            <li>
+              <Link to="/contact" className="navbar-links"><ContactLinkScrambleText /></Link>
             </li>
           </ul>
         </nav>
@@ -120,13 +120,13 @@ function Projects() {
             </div>
           </div>
           <div className="highlight-text">
-            <h2 style={{fontFamily: 'Syne'}}>2023 HIGHLIGHT REEL</h2>
+            <h2 style={{fontFamily: 'Syne'}}><HighlightReel2023Text /></h2>
             <br></br>
             <p>
               <a href="https://www.youtube.com/watch?v=oKDpEokr3Bw" className="atag-no-style" target="__blank">Watch <i className="fa fa-play-circle"></i> </a>
             </p>
             <br></br>
-            <p>cover art: <a href="https://www.instagram.com/leahkern/?hl=en" className="atag-no-style" target="__blank">@leahkerndesign</a></p>
+            <p>cover art: <a href="https://www.instagram.com/leahkern/?hl=en" className="atag-no-style" target="__blank" style={{display: 'inline'}}><CoverArtistNameText /></a></p>
           </div>
         </div>
 
@@ -158,13 +158,13 @@ function Projects() {
         </Fade>
         </div>
         <div className="grid-item">
-        <Fade triggerOnce>
+        <Fade>
             <a href="https://www.youtube.com/watch?v=yhNCjhR1dn0" target="__blank">
               <img src={superBowlLVII} alt="Video Thumbnail" />
             </a>
             <div className="grid-container-text">
                 <h3 className="grid-container-text-title">Super Bowl LVII Show Open</h3>
-                <p className="grid-container-text-subtitle">FanDuel</p>
+                <p className="grid-container-text-subtitle"><SuperBowlLVIIShowOpenSubtitle /></p>
             </div>
         </Fade>
         </div>
