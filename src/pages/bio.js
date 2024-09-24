@@ -12,16 +12,13 @@ function Bio() {
           </a>
           <ul className="navbar-links-group">
             <li>
-              <Link to="/projects" className="navbar-links">projects</Link>
-            </li>
-            {/* <li>
-              <Link to="/clients" className="navbar-links">clients</Link>
-            </li> */}
-            <li>
-              <Link to="/bio" className="navbar-links">bio</Link>
+              <Link to="/projects" className="navbar-links">[projects]</Link>
             </li>
             <li>
-              <Link to="/contact" className="navbar-links">contact</Link>
+              <Link to="/bio" className="navbar-links">[bio]</Link>
+            </li>
+            <li>
+              <Link to="/contact" className="navbar-links">[contact]</Link>
             </li>
           </ul>
         </nav>

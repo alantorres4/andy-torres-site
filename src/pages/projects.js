@@ -1,7 +1,7 @@
 import './projects.css';
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-import backVideo from '../assets/back-video-projects.mp4';
+import backVideo from '../assets/test.mp4';
 import andyLogo from '../assets/andytorreslogo.png';
 import thumbnailImage from '../assets/thumbnail_image.jpg';
 import peekImageCD from '../assets/peek_image_cd.png';
@@ -93,16 +93,13 @@ function Projects() {
           </a>
           <ul className="navbar-links-group">
             <li>
-              <Link to="/projects" className="navbar-links">projects</Link>
-            </li>
-            {/* <li>
-              <Link to="/clients" className="navbar-links">clients</Link>
-            </li> */}
-            <li>
-              <Link to="/bio" className="navbar-links">bio</Link>
+              <Link to="/projects" className="navbar-links">[projects]</Link>
             </li>
             <li>
-              <Link to="/contact" className="navbar-links">contact</Link>
+              <Link to="/bio" className="navbar-links">[bio]</Link>
+            </li>
+            <li>
+              <Link to="/contact" className="navbar-links">[contact]</Link>
             </li>
           </ul>
         </nav>
@@ -112,7 +109,7 @@ function Projects() {
           <div className="thumbnail-container">
             <div className="thumbnail">
               <div className="thumbnail-inner">
-                <a href="https://www.youtube.com/watch?v=oKDpEokr3Bw" className="atag-no-style" target="__blank">
+                <a href="https://vimeo.com/999951411" className="atag-no-style" target="__blank">
                   <img src={thumbnailImage} alt="Thumbnail" />
                 </a>
                 <img className="peek-image" src={peekImageCD} alt="Peek CD" />
@@ -120,13 +117,11 @@ function Projects() {
             </div>
           </div>
           <div className="highlight-text">
-            <h2 style={{fontFamily: 'Syne'}}>2023 HIGHLIGHT REEL</h2>
+            <h2 style={{fontFamily: 'Syne'}}>2024 HIGHLIGHT REEL</h2>
             <br></br>
             <p>
-              <a href="https://www.youtube.com/watch?v=oKDpEokr3Bw" className="atag-no-style" target="__blank">Watch <i className="fa fa-play-circle"></i> </a>
+              <a href="https://vimeo.com/999951411" className="atag-no-style" target="__blank">Watch <i className="fa fa-play-circle"></i> </a>
             </p>
-            <br></br>
-            <p>cover art: <a href="https://www.instagram.com/leahkern/?hl=en" className="atag-no-style" target="__blank">@leahkerndesign</a></p>
           </div>
         </div>
 

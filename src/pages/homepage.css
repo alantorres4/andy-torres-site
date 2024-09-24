@@ -22,17 +22,14 @@ body {
 }
 
 .logo {
+  mix-blend-mode: difference;
+  opacity: 75%;
   width: 15%;
   height: auto;
   max-width: 50%;
 }
 
 .hero {
-  background-size: 4px 4px;
-  background-color: #05097012;
-  background-image:
-    linear-gradient(to right, #ffffff13 1px, transparent 1px),
-    linear-gradient(to bottom, #ffffff13 1px, transparent 1px);
   width: 100%;
   height: 100vh;
   position: relative;
@@ -85,6 +82,8 @@ nav ul li {
 }
 
 .navbar-links {
+  letter-spacing: .15rem;
+  text-transform: uppercase !important;
   text-decoration: none;
   color: whitesmoke;
   font-size: medium;
@@ -102,7 +101,9 @@ nav ul li {
 }
 
 .homepage-name {
-  width: 44%;
+  mix-blend-mode: difference;
+  opacity: 95%;
+  width: 20%;
   align-self: center;
   height: auto;
   @media (max-width: 600px) {
