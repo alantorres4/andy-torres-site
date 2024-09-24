@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.89038f5d.css",
-    "main.js": "/static/js/main.08437498.js",
-    "static/js/787.ef65a5c0.chunk.js": "/static/js/787.ef65a5c0.chunk.js",
-    "static/media/test.mp4": "/static/media/test.dc250fe67e1e8c283e40.mp4",
-    "static/media/back-video-projects.mp4": "/static/media/back-video-projects.3d48aa40f376220e294c.mp4",
+    "main.css": "/static/css/main.9e8655d5.css",
+    "main.js": "/static/js/main.57239cba.js",
+    "static/js/787.e84f00f1.chunk.js": "/static/js/787.e84f00f1.chunk.js",
+    "static/media/test.mp4": "/static/media/test.9b7752c0eba0770501ea.mp4",
     "static/media/dallas-mavs.jpg": "/static/media/dallas-mavs.13bfde6aef122f683cc6.jpg",
     "static/media/chicago-bulls.jpg": "/static/media/chicago-bulls.d8c048e03539d357703c.jpg",
     "static/media/la-clippers.jpg": "/static/media/la-clippers.c58c49ebe18e01c68cdc.jpg",
@@ -61,12 +60,12 @@
     "static/media/andytorreslogo.png": "/static/media/andytorreslogo.ab717a7ee204a6dc94a5.png",
     "static/media/AngryOrchard.png": "/static/media/AngryOrchard.fb1808e0c588302793ea.png",
     "index.html": "/index.html",
-    "main.89038f5d.css.map": "/static/css/main.89038f5d.css.map",
-    "main.08437498.js.map": "/static/js/main.08437498.js.map",
-    "787.ef65a5c0.chunk.js.map": "/static/js/787.ef65a5c0.chunk.js.map"
+    "main.9e8655d5.css.map": "/static/css/main.9e8655d5.css.map",
+    "main.57239cba.js.map": "/static/js/main.57239cba.js.map",
+    "787.e84f00f1.chunk.js.map": "/static/js/787.e84f00f1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89038f5d.css",
-    "static/js/main.08437498.js"
+    "static/css/main.9e8655d5.css",
+    "static/js/main.57239cba.js"
   ]
 }
