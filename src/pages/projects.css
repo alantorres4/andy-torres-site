@@ -220,54 +220,57 @@ nav ul li {
   transform: translateX(-77%);
 }
 
-.client-logo-grid-container {
-  width: 100%;
-  background-color: #010004;
-  display: flex;
-  justify-content: center;
-}
-
-.client-logo-grid {
-  padding-top: 24px;
-  width: 85%;
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  /* grid-template-columns: repeat(3, 1fr); */
-  grid-gap: 4px;
-  justify-items: center;
-  @media (max-width: 600px) {
-    grid-template-columns: repeat(4, 1fr);
-    width: 85%;
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-3200px);
   }
 }
-
-.client-logo-item {
-  width: 100%;
-  text-align: center;
+/* Logo scroll container */
+.client-logo-grid-container {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #010004;
+  position: relative;
 }
 
-.client-logo-item img {
-  color: pink;
+.client-logo-grid-container:before,
+.client-logo-grid-container:after {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  content: "";
+  z-index: 2;
 }
 
-.grid-container {
-
+.client-logo-grid-container:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255,255,255, 0), #010004); /* TODO: remove after testing */
 }
 
-.grid-item {
-
+.client-logo-grid-container:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255,255,255, 0), #010004); /* TODO: remove after testing */
 }
 
-.grid-item img {
 
+.client-logo-grid-container:hover .client-logo-grid {
+  animation-play-state: paused;
 }
 
-.grid-item:hover img {
-
+/* Logo scroll slide (inner container) */
+.client-logo-grid {
+  display: inline-block;
+  animation: 20s slide infinite linear;
 }
 
-.grid-item .grid-container-text {
-
+/* Logo img */
+.client-logo-grid img {
+  height: 100px;
+  margin: 0 20px;
 }
 
 .grid-item .grid-container-text-title {

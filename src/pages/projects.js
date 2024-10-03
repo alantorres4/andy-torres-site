@@ -7,7 +7,6 @@ import {ProjectsLinkScrambleText, AboutLinkScrambleText, ContactLinkScrambleText
 import andyLogo from '../assets/andytorreslogo.png';
 import thumbnailImage from '../assets/thumbnail_image.jpg';
 import peekImageCD from '../assets/peek_image_cd.png';
-import cbsSportsWorldCup from '../assets/cbs-sports-world-cup-final.jpg';
 import superBowlLVII from '../assets/super-bowl-lvii-open.jpg';
 import chiefsPromo1 from '../assets/chiefs-promo-1.jpg';
 import sunsCGI from '../assets/suns-cgi-sfx.jpg';
@@ -132,31 +131,44 @@ function Projects() {
 
       <div className="client-logo-grid-container">
         <div className="client-logo-grid">
-          {logoImages.map((image, index) => (
-            <Fade triggerOnce>
-              <div className="client-logo-item" key={index}>
-                <img src={image} alt={`Logo ${index + 1}`} />
-              </div>
-            </Fade>
-          ))}
+          <img src={clientUnderArmour} />
+          <img src={clientAdidas} />
+          <img src={clientPuma} />
+          <img src={clientEASports} />
+          <img src={clientCoinbase} />
+          <img src={clientPaniniOfAmerica} />
+          <img src={clientSuperBowlLVII} />
+          <img src={clientFIFAWordCupQatar} />
+          <img src={clientRollingLoud} />
+          <img src={clientUFC} />
+          <img src={clientNBA} />
+          <img src={clientMahomes} />
+          <img src={clientOutbackSteakhouse} />
+          <img src={clientAngryOrchard} />
+          <img src={clientTheCrewLeague} />
+          <img src={clientKansasCityChiefs} />
+          <img src={clientLosAngelesChargers} />
+          <img src={clientSF49ers} />
+          <img src={clientCarolinaPanthers} />
+          <img src={clientUSC} />
+          <img src={clientLouisvilleCardinals} />
+          <img src={clientFCCincinnati} />
+          <img src={clientChicagoBulls} />
+          <img src={clientNewYorkKnicks} />
+          <img src={clientCBSSports} />
+          <img src={clientLAClippers} />
+          <img src={clientPhoenixSuns} />
+          <img src={clientDenverNuggets} />
+          <img src={clientBrooklynNets} />
+          <img src={clientDallasMavericks} />
+          <img src={clientIgnite} />
+          <img src={clientAtlantaHawks} />
         </div>
       </div>
 
 
       <div className="grid-container">
         <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://www.youtube.com/watch?v=pUbxOo3QraE" target="__blank">
-              <img src={cbsSportsWorldCup} alt="Video Thumbnail"/>
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">World Cup Final</h3>
-                <p className="grid-container-text-subtitle">CBS SPORTS</p>
-            </div>
-        </Fade>
-        </div>
-        <div className="grid-item">
-        <Fade>
             <a href="https://www.youtube.com/watch?v=yhNCjhR1dn0" target="__blank">
               <img src={superBowlLVII} alt="Video Thumbnail" />
             </a>
@@ -164,7 +176,6 @@ function Projects() {
                 <h3 className="grid-container-text-title">Super Bowl LVII Show Open</h3>
                 <p className="grid-container-text-subtitle"><SuperBowlLVIIShowOpenSubtitle /></p>
             </div>
-        </Fade>
         </div>
 
         <div className="grid-item">
