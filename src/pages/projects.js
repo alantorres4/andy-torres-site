@@ -3,7 +3,7 @@ import {Cursor} from '../Cursor.js';
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import backVideo from '../assets/test.mp4';
-import {ProjectsLinkScrambleText, AboutLinkScrambleText, ContactLinkScrambleText, HighlightReel2023Text, CoverArtistNameText, SuperBowlLVIIShowOpenSubtitle} from '../ScrambleTexts.js';
+import {ProjectsLinkScrambleText, AboutLinkScrambleText, ContactLinkScrambleText, HighlightReel2023Text, SuperBowlLVIIShowOpenSubtitle} from '../ScrambleTexts.js';
 import andyLogo from '../assets/andytorreslogo.png';
 import thumbnailImage from '../assets/thumbnail_image.jpg';
 import peekImageCD from '../assets/peek_image_cd.png';

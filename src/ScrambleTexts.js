@@ -55,7 +55,7 @@ const ContactLinkScrambleText = () => {
 const View2023ReelScrambleText = () => {
 
   const { ref } = useScramble({
-    text: "[ VIEW 2023 REEL ]",
+    text: "[ VIEW 2024 REEL ]",
     range: [48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 37, 35, 36, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90],
     speed: 0.22999999999999998,
     tick: 1,
@@ -88,25 +88,6 @@ const HighlightReel2023Text = () => {
   return <p ref={ref} />
 };
 
-
-const CoverArtistNameText = () => {
-
-  const { ref } = useScramble({
-    text: "@leahkerndesign",
-    range: [48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 37, 35, 36, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90],
-    speed: 0.72999999999999998,
-    tick: 1,
-    step: 1,
-    scramble: 5,
-    seed: 7,
-    chance: 1,
-    overdrive: false,
-    overflow: false,  
-  })
-  
-  return <p ref={ref} style={{display: 'inline'}}/>
-};
-
 const SuperBowlLVIIShowOpenSubtitle = () => {
 
   const { ref } = useScramble({
@@ -134,6 +115,5 @@ export {
   ContactLinkScrambleText, 
   View2023ReelScrambleText, 
   HighlightReel2023Text, 
-  CoverArtistNameText,
   SuperBowlLVIIShowOpenSubtitle
 }
