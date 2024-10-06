@@ -220,59 +220,6 @@ nav ul li {
   transform: translateX(-77%);
 }
 
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-3200px);
-  }
-}
-/* Logo scroll container */
-.client-logo-grid-container {
-  overflow: hidden;
-  white-space: nowrap;
-  background-color: #010004;
-  position: relative;
-}
-
-.client-logo-grid-container:before,
-.client-logo-grid-container:after {
-  position: absolute;
-  top: 0;
-  width: 200px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-
-.client-logo-grid-container:before {
-  left: 0;
-  background: linear-gradient(to left, rgba(255,255,255, 0), #010004); /* TODO: remove after testing */
-}
-
-.client-logo-grid-container:after {
-  right: 0;
-  background: linear-gradient(to right, rgba(255,255,255, 0), #010004); /* TODO: remove after testing */
-}
-
-
-.client-logo-grid-container:hover .client-logo-grid {
-  animation-play-state: paused;
-}
-
-/* Logo scroll slide (inner container) */
-.client-logo-grid {
-  display: inline-block;
-  animation: 20s slide infinite linear;
-}
-
-/* Logo img */
-.client-logo-grid img {
-  height: 100px;
-  margin: 0 20px;
-}
-
 .grid-item .grid-container-text-title {
   font-size: larger;
   font-family: 'Syne', sans-serif;

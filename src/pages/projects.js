@@ -1,4 +1,5 @@
 import './projects.css';
+import Slider from '../Slider.js';
 import {Cursor} from '../Cursor.js';
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -70,12 +71,38 @@ import clientCBSSports from '../assets/AT-ClientLogos/CBSSports.png';
 
 function Projects() {
 
-  const logoImages = [clientUnderArmour, clientAdidas, clientPuma, clientEASports, clientCoinbase, clientPaniniOfAmerica, 
-                      clientSuperBowlLVII, clientFIFAWordCupQatar, clientRollingLoud, clientUFC, clientNBA, clientMahomes,
-                      clientOutbackSteakhouse, clientAngryOrchard, clientTheCrewLeague, clientKansasCityChiefs, clientLosAngelesChargers, clientSF49ers,
-                      clientCarolinaPanthers, clientUSC, clientLouisvilleCardinals, clientFCCincinnati, clientChicagoBulls, clientNewYorkKnicks, clientCBSSports,
-                      clientLAClippers, clientPhoenixSuns, clientDenverNuggets, clientBrooklynNets, clientDallasMavericks, clientIgnite,
-                      clientAtlantaHawks,
+  const logoImages = [
+    {src: clientUnderArmour, alt: 'Under Armour'}, 
+    {src: clientAdidas, alt: 'Adidas'}, 
+    {src: clientPuma, alt: 'Puma' }, 
+    {src: clientEASports, alt: 'EASports' }, 
+    {src: clientCoinbase, alt: 'Coinbase' }, 
+    {src: clientPaniniOfAmerica, alt: 'Panini Of America' }, 
+    {src: clientSuperBowlLVII, alt: 'Super Bowl LVII' }, 
+    {src: clientRollingLoud, alt: 'Rolling Loud' }, 
+    {src: clientUFC, alt: 'UFC' }, 
+    {src: clientNBA, alt: 'NBA' }, 
+    {src: clientMahomes, alt: 'Mahomes' },
+    {src: clientOutbackSteakhouse, alt: 'Outback Steakhouse' }, 
+    {src: clientAngryOrchard, alt: 'Angry Orchard' }, 
+    {src: clientTheCrewLeague, alt: 'The Crew League' }, 
+    {src: clientKansasCityChiefs, alt: 'KC Chiefs' }, 
+    {src: clientLosAngelesChargers, alt: 'LA Chargers' }, 
+    {src: clientSF49ers, alt: 'SF 49ers' },
+    {src: clientCarolinaPanthers, alt: 'Carolina Panthers' }, 
+    {src: clientUSC, alt: 'USC' }, 
+    {src: clientLouisvilleCardinals, alt: 'Cardinals' }, 
+    {src: clientFCCincinnati, alt: 'FC Cincinnati' }, 
+    {src: clientChicagoBulls, alt: 'Chicago Bulls' }, 
+    {src: clientNewYorkKnicks, alt: 'NY Knicks' }, 
+    {src: clientCBSSports, alt: 'CBS Sports' },
+    {src: clientLAClippers, alt: 'LA Clippers' }, 
+    {src: clientPhoenixSuns, alt: 'Phoenix Suns' }, 
+    {src: clientDenverNuggets, alt: 'Denver Nuggets' }, 
+    {src: clientBrooklynNets, alt: 'Brooklyn Nets' }, 
+    {src: clientDallasMavericks, alt: 'Dallas Mavericks' }, 
+    {src: clientIgnite, alt: 'Ignite' },
+    {src: clientAtlantaHawks, alt: 'Atlanta Hawks' },
   ]
 
   return (
@@ -129,41 +156,20 @@ function Projects() {
 
       </div>
 
-      <div className="client-logo-grid-container">
-        <div className="client-logo-grid">
-          <img src={clientUnderArmour} />
-          <img src={clientAdidas} />
-          <img src={clientPuma} />
-          <img src={clientEASports} />
-          <img src={clientCoinbase} />
-          <img src={clientPaniniOfAmerica} />
-          <img src={clientSuperBowlLVII} />
-          <img src={clientFIFAWordCupQatar} />
-          <img src={clientRollingLoud} />
-          <img src={clientUFC} />
-          <img src={clientNBA} />
-          <img src={clientMahomes} />
-          <img src={clientOutbackSteakhouse} />
-          <img src={clientAngryOrchard} />
-          <img src={clientTheCrewLeague} />
-          <img src={clientKansasCityChiefs} />
-          <img src={clientLosAngelesChargers} />
-          <img src={clientSF49ers} />
-          <img src={clientCarolinaPanthers} />
-          <img src={clientUSC} />
-          <img src={clientLouisvilleCardinals} />
-          <img src={clientFCCincinnati} />
-          <img src={clientChicagoBulls} />
-          <img src={clientNewYorkKnicks} />
-          <img src={clientCBSSports} />
-          <img src={clientLAClippers} />
-          <img src={clientPhoenixSuns} />
-          <img src={clientDenverNuggets} />
-          <img src={clientBrooklynNets} />
-          <img src={clientDallasMavericks} />
-          <img src={clientIgnite} />
-          <img src={clientAtlantaHawks} />
-        </div>
+      <div>
+        <Slider
+              width="250px"
+              duration={50}
+              pauseOnHover={true}
+              blurBorders={false}
+              blurBoderColor={'#fff'}
+          >
+          {logoImages.map((image, index) => (
+              <Slider.Slide key={index}>
+                  <img src={image.src} alt={image.alt} width={125} />
+              </Slider.Slide>
+          ))}
+          </Slider>
       </div>
 
 
