@@ -173,172 +173,49 @@ function Projects() {
       </div>
 
 
+
+      <div class="image-container">
+        <img src={superBowlLVII} alt="Super Bowl LVII img" class="image" />
+        <div class="image-subtext">[FanDuel]</div>
+        <div class="image-text">Super Bowl LVII</div>
+      </div>
+
+      <div class="image-container">
+        <img src={denverNuggets} alt="NBA Champions img" class="image" />
+        <div class="image-subtext">[Denver Nuggets]</div>
+        <div class="image-text">NBA Champions</div>
+      </div>
+
+      <div class="image-container">
+        <img src={brooklynNets} alt="Brooklyn Nets img" class="image" />
+        <div class="image-subtext">[Playoffs Show Open]</div>
+        <div class="image-text">Brooklyn Nets</div>
+      </div>
+
+      <div class="image-container">
+        <img src={losAngelesChargers} alt="Los Angeles Chargers img" class="image" />
+        <div class="image-subtext">[Show Open]</div>
+        <div class="image-text">Los Angeles Chargers</div>
+      </div>
+
+      <div class="image-container">
+        <img src={fccCGI} alt="FC Cincinnati img" class="image" />
+        <div class="image-subtext">[Intro Video]</div>
+        <div class="image-text">FC Cincinnati</div>
+      </div>
+
+      <div class="image-container">
+        <img src={superBowlLVIIring} alt="Kansas City Chiefs img" class="image" />
+        <div class="image-subtext">[SBLVII Ring Reveal]</div>
+        <div class="image-text">Kansas City Chiefs</div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+
+      {/* TODO: delete this */}
       <div className="grid-container">
-        <div className="grid-item">
-            <a href="https://www.youtube.com/watch?v=yhNCjhR1dn0" target="__blank">
-              <img src={superBowlLVII} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">Super Bowl LVII Show Open</h3>
-                <p className="grid-container-text-subtitle"><SuperBowlLVIIShowOpenSubtitle /></p>
-            </div>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://twitter.com/nuggets/status/1668455869716250624?s=20" target="__blank">
-              <img src={denverNuggets} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">NBA Champions</h3>
-                <p className="grid-container-text-subtitle">Denver Nuggets</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://www.instagram.com/reel/CrhMI2wA5w0/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA%3D%3D" target="__blank">
-              <img src={brooklynNets} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">Brooklyn Nets Playoffs Show Open</h3>
-                <p className="grid-container-text-subtitle">Brooklyn Nets</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://twitter.com/chargers/status/1700641984707215391?s=20" target="__blank">
-              <img src={losAngelesChargers} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">Los Angeles Chargers Show Open</h3>
-                <p className="grid-container-text-subtitle">Los Angeles Chargers</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://www.instagram.com/p/CrO4hhsOx19/" target="__blank">
-              <img src={fccCGI} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">FC Cincinnati Intro Video</h3>
-                <p className="grid-container-text-subtitle">FC Cincinnati</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://twitter.com/Chiefs/status/1669535765607456769?s=20" target="__blank">
-              <img src={superBowlLVIIring} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">SBLVII Ring Reveal</h3>
-                <p className="grid-container-text-subtitle">Kansas City Chiefs</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://twitter.com/andytorres_a/status/1584349239613980672?s=20&t=Bn9N1-6Uuw-QZ6ZZnmPFsA" target="__blank">
-              <img src={laClippers} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">LA Clippers Show Open</h3>
-                <p className="grid-container-text-subtitle">LA Clippers</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://twitter.com/andytorres_a/status/1573360816581382145?s=20&t=r4AarUZLdN9r9cqgrAmDZg" target="__blank">
-              <img src={excelSportsNBA} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">NBA DRAFT COMBINE: The Movie</h3>
-                <p className="grid-container-text-subtitle">excel sports x NBA</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://www.instagram.com/p/Cn8Y34XjQwu/" target="__blank">
-              <img src={chiefsPromo1} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">AFC Championship Promo</h3>
-                <p className="grid-container-text-subtitle">Kansas City Chiefs</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://twitter.com/andytorres_a/status/1590830852610707457?s=20&t=cfp87Ohm0SZKExlL5_eElg" target="__blank">
-              <img src={chicagoBulls} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">Chicago Bulls City Edition</h3>
-                <p className="grid-container-text-subtitle">Chicago Bulls</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://www.instagram.com/p/CogEBb1DCv1/" target="__blank">
-              <img src={superBowlLVII2} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">Super Bowl LVII Promo</h3>
-                <p className="grid-container-text-subtitle">Kansas City Chiefs</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://twitter.com/Bengals/status/1492876221742419973?s=20&t=-2joXkPi8LIfZxd3W2Z04w" target="__blank">
-              <img src={bengals} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">Super Bowl LVI | Bengals</h3>
-                <p className="grid-container-text-subtitle">Cincinnati Bengals</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://www.youtube.com/watch?v=KMEFqxT1Lng" target="__blank">
-              <img src={uscShowOpen} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">USC Show Open</h3>
-                <p className="grid-container-text-subtitle">University of Southern California</p>
-            </div>
-        </Fade>
-        </div>
-
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://twitter.com/warriors/status/1537910456102289408?s=20&t=Zo9LlV_X-qjFBRF_eUzrDA" target="__blank">
-              <img src={goldenStateWarriors} alt="Video Thumbnail" />
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">2022 NBA Champions</h3>
-                <p className="grid-container-text-subtitle">Golden State Warriors</p>
-            </div>
-        </Fade>
-        </div>
 
         <div className="grid-item">
         <Fade triggerOnce>
