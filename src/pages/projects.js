@@ -155,13 +155,13 @@ function Projects() {
 
       </div>
 
-      <div style={{ height: '200px', position: 'relative', overflow: 'hidden', paddingTop: '12px' }}>
+      <div style={{ height: '80px', position: 'relative', overflow: 'hidden', backgroundColor: 'black' }}>
         <LogoLoop 
           logos={logoImages} 
-          speed={80}
+          speed={50}
           direction="left"
-          logoHeight={120}
-          gap={60}
+          logoHeight={80}
+          gap={20}
           pauseOnHover={false}
           scaleOnHover
           fadeOut
@@ -169,8 +169,6 @@ function Projects() {
           ariaLabel="Clients"
           />
       </div>
-
-
 
       <div className="grid-container">
         <div className="grid-item">
