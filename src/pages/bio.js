@@ -1,6 +1,7 @@
 import './bio.css';
 import { Link } from "react-router-dom";
 import andyLogo from '../assets/andytorreslogo.png';
+import DecryptedText from '../blocks/TextAnimations/DecryptedText/DecryptedText.jsx';
 
 function Bio() {
   return (
@@ -12,15 +13,45 @@ function Bio() {
           </a>
           <ul className="navbar-links-group">
             <li>
-              <Link to="/projects" className="navbar-links">[projects]</Link>
+              <Link to="/projects" className="navbar-links">
+                <DecryptedText
+                  text="[PROJECTS]"
+                  speed={50}
+                  sequential={true}
+                  maxIterations={50}
+                  characters="02⋿34¿579%$?&#*@▮"
+                  revealDirection="start"
+                  animateOn="view"
+                  />
+              </Link>
             </li>
             <li>
-              <Link to="/bio" className="navbar-links">[bio]</Link>
+              <Link to="/bio" className="navbar-links">
+              <DecryptedText
+                  text="[BIO]"
+                  speed={50}
+                  sequential={true}
+                  maxIterations={50}
+                  characters="02⋿34¿579%$?&#*@▮"
+                  revealDirection="start"
+                  animateOn="view"
+                  />
+              </Link>
             </li>
             <li>
-              <Link to="/contact" className="navbar-links">[contact]</Link>
+              <Link to="/contact" className="navbar-links">
+                <DecryptedText
+                  text="[CONTACT]"
+                  speed={50}
+                  sequential={true}
+                  maxIterations={50}
+                  characters="02⋿34¿579%$?&#*@▮"
+                  revealDirection="start"
+                  animateOn="view"
+                  />
+              </Link>
             </li>
-          </ul>
+          </ul>        
         </nav>
 
 

@@ -34,6 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  mix-blend-mode: difference;
 }
 
 .back-video {
@@ -62,7 +63,7 @@ nav {
   align-content: center;
   align-items: center;
   text-align: center;
-
+  mix-blend-mode: difference;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -82,13 +83,9 @@ nav ul li {
   letter-spacing: .15rem;
   text-transform: uppercase !important;
   text-decoration: none;
-  color: whitesmoke;
-  font-size: medium;
-  transition: all 0.44s ease;
-}
-
-.navbar-links:hover {
-  color: whitesmoke;
+  color: white;
+  mix-blend-mode: difference;
+  font-size: small;
 }
 
 .content {
@@ -110,10 +107,11 @@ nav ul li {
 
 .homepage-cta-button {
   font-size: small;
-  font-family: 'Major Mono Display';
+  font-family: 'Syne';
   background-color: #74747b0c;
   color: whitesmoke;
   border-radius: 8px;
+  mix-blend-mode: difference;
   margin-top: 8px;
   padding-top: 6px;
   padding-bottom: 6px;
