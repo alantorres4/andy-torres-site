@@ -66,15 +66,44 @@ import clientUnderArmour from '../assets/AT-ClientLogos/UnderArmour.png';
 import clientUSC from '../assets/AT-ClientLogos/USC.png';
 import clientCBSSports from '../assets/AT-ClientLogos/CBSSports.png';
 
+import { LogoLoop } from '../blocks/Animations/LogoLoop/LogoLoop.jsx';
+
 function Projects() {
 
-  const logoImages = [clientUnderArmour, clientAdidas, clientPuma, clientEASports, clientCoinbase, clientPaniniOfAmerica, 
-                      clientSuperBowlLVII, clientFIFAWordCupQatar, clientRollingLoud, clientUFC, clientNBA, clientMahomes,
-                      clientOutbackSteakhouse, clientAngryOrchard, clientTheCrewLeague, clientKansasCityChiefs, clientLosAngelesChargers, clientSF49ers,
-                      clientCarolinaPanthers, clientUSC, clientLouisvilleCardinals, clientFCCincinnati, clientChicagoBulls, clientNewYorkKnicks, clientCBSSports,
-                      clientLAClippers, clientPhoenixSuns, clientDenverNuggets, clientBrooklynNets, clientDallasMavericks, clientIgnite,
-                      clientAtlantaHawks,
-  ]
+  const logoImages = [
+    { src: clientUnderArmour, alt: "UnderArmour", href: "https://www.underarmour.com/en-us/" },
+    { src: clientAdidas, alt: "Adidas", href: "https://www.adidas.com/us" },
+    { src: clientPuma, alt: "Puma", href: "https://us.puma.com/us/en" },
+    { src: clientEASports, alt: "EA Sports", href: "https://www.ea.com/sports" },
+    { src: clientCoinbase, alt: "Coinbase", href: "https://www.coinbase.com" },
+    { src: clientPaniniOfAmerica, alt: "Panini of America", href: "https://www.paniniamerica.net" },
+    { src: clientSuperBowlLVII, alt: "Super Bowl LVII", href: "https://www.nfl.com" },
+    { src: clientFIFAWordCupQatar, alt: "FIFA", href: "https://www.fifa.com/en" },
+    { src: clientRollingLoud, alt: "Rolling Loud", href: "https://www.rollingloud.com" },
+    { src: clientUFC, alt: "UFC", href: "https://www.ufc.com" },
+    { src: clientNBA, alt: "NBA", href: "https://www.nba.com" },
+    { src: clientMahomes, alt: "Patrick Mahomes", href: "https://www.instagram.com/patrickmahomes/?hl=en" },
+    { src: clientOutbackSteakhouse, alt: "Outback", href: "https://www.outback.com" },
+    { src: clientAngryOrchard, alt: "Angry Orchard", href: "https://www.angryorchard.com" },
+    { src: clientTheCrewLeague, alt: "The Crew League", href: "https://thecrewleague.com" },
+    { src: clientKansasCityChiefs, alt: "Kansas City Chiefs", href: "https://www.chiefs.com" },
+    { src: clientLosAngelesChargers, alt: "Los Angeles Chargers", href: "https://www.chargers.com" },
+    { src: clientSF49ers, alt: "San Francisco 49ers", href: "https://www.49ers.com" },
+    { src: clientCarolinaPanthers, alt: "Carolina Panthers", href: "https://www.panthers.com" },
+    { src: clientUSC, alt: "USC", href: "https://www.usc.edu" },
+    { src: clientLouisvilleCardinals, alt: "Louisville Cardinals", href: "https://gocards.com" },
+    { src: clientFCCincinnati, alt: "FC Cincinnati", href: "https://www.fccincinnati.com" },
+    { src: clientChicagoBulls, alt: "Chicago Bulls", href: "https://www.bulls.com" },
+    { src: clientNewYorkKnicks, alt: "New York Knicks", href: "https://www.nba.com/knicks/" },
+    { src: clientCBSSports, alt: "CBS Sports", href: "https://www.cbssports.com" },
+    { src: clientLAClippers, alt: "LA Clippers", href: "https://www.nba.com/clippers/" },
+    { src: clientPhoenixSuns, alt: "Phoenix Suns", href: "https://www.nba.com/suns/" },
+    { src: clientDenverNuggets, alt: "Denver Nuggets", href: "https://www.nba.com/nuggets/" },
+    { src: clientBrooklynNets, alt: "Brooklyn Nets", href: "https://www.nba.com/nets/" },
+    { src: clientDallasMavericks, alt: "Dallas Mavericks", href: "https://www.nba.com/mavs/" },
+    { src: clientIgnite, alt: "Ignite", href: "https://en.wikipedia.org/wiki/NBA_G_League_Ignite" },
+    { src: clientAtlantaHawks, alt: "Atlanta Hawks", href: "https://www.nba.com/hawks/" },
+  ];
 
   return (
     <div>
@@ -126,17 +155,21 @@ function Projects() {
 
       </div>
 
-      <div className="client-logo-grid-container">
-        <div className="client-logo-grid">
-          {logoImages.map((image, index) => (
-            <Fade triggerOnce>
-              <div className="client-logo-item" key={index}>
-                <img src={image} alt={`Logo ${index + 1}`} />
-              </div>
-            </Fade>
-          ))}
-        </div>
+      <div style={{ height: '200px', position: 'relative', overflow: 'hidden', paddingTop: '12px' }}>
+        <LogoLoop 
+          logos={logoImages} 
+          speed={80}
+          direction="left"
+          logoHeight={120}
+          gap={60}
+          pauseOnHover={false}
+          scaleOnHover
+          fadeOut
+          fadeOutColor="black"
+          ariaLabel="Clients"
+          />
       </div>
+
 
 
       <div className="grid-container">
