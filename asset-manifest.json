@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e8655d5.css",
-    "main.js": "/static/js/main.57239cba.js",
-    "static/js/787.e84f00f1.chunk.js": "/static/js/787.e84f00f1.chunk.js",
+    "main.css": "/static/css/main.aa23cfcb.css",
+    "main.js": "/static/js/main.14cffb6c.js",
+    "static/js/453.d2e7a219.chunk.js": "/static/js/453.d2e7a219.chunk.js",
     "static/media/test.mp4": "/static/media/test.9b7752c0eba0770501ea.mp4",
     "static/media/dallas-mavs.jpg": "/static/media/dallas-mavs.13bfde6aef122f683cc6.jpg",
     "static/media/chicago-bulls.jpg": "/static/media/chicago-bulls.d8c048e03539d357703c.jpg",
@@ -15,7 +15,6 @@
     "static/media/chicago-bulls-2.jpg": "/static/media/chicago-bulls-2.0472cbc2d33f4f8e823c.jpg",
     "static/media/chiefs-promo-1.jpg": "/static/media/chiefs-promo-1.d9452200f8369aa3215e.jpg",
     "static/media/brooklyn-nets-show-open.jpeg": "/static/media/brooklyn-nets-show-open.58f08c986bee5373f872.jpeg",
-    "static/media/cbs-sports-world-cup-final.jpg": "/static/media/cbs-sports-world-cup-final.e87c05f100a2c291f663.jpg",
     "static/media/Los-Angeles-Chargers-Show-Open.jpeg": "/static/media/Los-Angeles-Chargers-Show-Open.ac212ee3ac8a1ec81ec9.jpeg",
     "static/media/atl-hawks-upside-down.png": "/static/media/atl-hawks-upside-down.5d8ffdf27f18b6c0f2b1.png",
     "static/media/client_atlanta_hawks.png": "/static/media/client_atlanta_hawks.8ea0677a2e7d1c36b347.png",
@@ -60,12 +59,12 @@
     "static/media/andytorreslogo.png": "/static/media/andytorreslogo.ab717a7ee204a6dc94a5.png",
     "static/media/AngryOrchard.png": "/static/media/AngryOrchard.fb1808e0c588302793ea.png",
     "index.html": "/index.html",
-    "main.9e8655d5.css.map": "/static/css/main.9e8655d5.css.map",
-    "main.57239cba.js.map": "/static/js/main.57239cba.js.map",
-    "787.e84f00f1.chunk.js.map": "/static/js/787.e84f00f1.chunk.js.map"
+    "main.aa23cfcb.css.map": "/static/css/main.aa23cfcb.css.map",
+    "main.14cffb6c.js.map": "/static/js/main.14cffb6c.js.map",
+    "453.d2e7a219.chunk.js.map": "/static/js/453.d2e7a219.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e8655d5.css",
-    "static/js/main.57239cba.js"
+    "static/css/main.aa23cfcb.css",
+    "static/js/main.14cffb6c.js"
   ]
 }
