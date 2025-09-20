@@ -5,7 +5,6 @@ import backVideo from '../assets/test.mp4';
 import andyLogo from '../assets/andytorreslogo.png';
 import thumbnailImage from '../assets/thumbnail_image.jpg';
 import peekImageCD from '../assets/peek_image_cd.png';
-import cbsSportsWorldCup from '../assets/cbs-sports-world-cup-final.jpg';
 import superBowlLVII from '../assets/super-bowl-lvii-open.jpg';
 import chiefsPromo1 from '../assets/chiefs-promo-1.jpg';
 import sunsCGI from '../assets/suns-cgi-sfx.jpg';
@@ -141,17 +140,6 @@ function Projects() {
 
 
       <div className="grid-container">
-        <div className="grid-item">
-        <Fade triggerOnce>
-            <a href="https://www.youtube.com/watch?v=pUbxOo3QraE" target="__blank">
-              <img src={cbsSportsWorldCup} alt="Video Thumbnail"/>
-            </a>
-            <div className="grid-container-text">
-                <h3 className="grid-container-text-title">World Cup Final</h3>
-                <p className="grid-container-text-subtitle">CBS SPORTS</p>
-            </div>
-        </Fade>
-        </div>
         <div className="grid-item">
         <Fade triggerOnce>
             <a href="https://www.youtube.com/watch?v=yhNCjhR1dn0" target="__blank">

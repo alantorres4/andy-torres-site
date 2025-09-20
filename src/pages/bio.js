@@ -29,7 +29,7 @@ function Bio() {
             <p>Andy is a 3D artist specializing in crafting large-scale environments; cities, iconic stadiums, and awe-inspiring landscapes. He has collaborated with high-profile clients in the sports industry, including the NFL and NBA, as well as working alongside renowned sports celebrities. Andy frequently teams up with content creators to bring their projects to life through the magic of 3D artistry</p>
             <br></br>
             <br></br>
-            <p>&#x1F4CD;new york, usa</p>
+            <p>&#x1F4CD;los angeles, usa</p>
           </div>
         </div>
 
