@@ -69,7 +69,20 @@ import clientCBSSports from '../assets/AT-ClientLogos/CBSSports.png';
 import { LogoLoop } from '../blocks/Animations/LogoLoop/LogoLoop.jsx';
 import DecryptedText from '../blocks/TextAnimations/DecryptedText/DecryptedText.jsx';
 
+// For video player
+import {useState} from 'react'
+import ModalVideo from 'react-modal-video'
+import '../../node_modules/react-modal-video/scss/modal-video.scss';
+
 function Projects() {
+
+  const [isOpen, setOpen] = useState(false);
+  const [videoId, setVideoId] = useState(0);
+
+  const openModalWithVideo = (newVideoId) => {
+    setVideoId(newVideoId); 
+    setOpen(true);
+  };
 
   const logoImages = [
     { src: clientUnderArmour, alt: "UnderArmour", href: "https://www.underarmour.com/en-us/" },
@@ -179,7 +192,9 @@ function Projects() {
             <h2 style={{fontFamily: 'Syne'}}>2024 HIGHLIGHT REEL</h2>
             <br></br>
             <p>
-              <a href="https://vimeo.com/999951411" className="atag-no-style" target="__blank">Watch <i className="fa fa-play-circle"></i> </a>
+              <ModalVideo channel='vimeo' autoplay isOpen={isOpen} videoId="999951411" onClose={() => setOpen(false)} />
+
+              <a onClick={() => openModalWithVideo("999951411")} className="atag-no-style" target="__blank">Watch <i className="fa fa-play-circle"></i> </a>
             </p>
           </div>
         </div>
@@ -204,6 +219,10 @@ function Projects() {
       <div className="grid-container">
         <div className="grid-item">
         <Fade triggerOnce>
+              {/* Super Bowl LVII Show Open video  */}
+              <ModalVideo channel='vimeo' autoplay isOpen={isOpen} videoId={videoId} onClose={() => setOpen(false)} />
+              <a onClick={() => setOpen(true)} className="atag-no-style" target="__blank">Watch <i className="fa fa-play-circle"></i> </a>
+
             <a href="https://www.youtube.com/watch?v=yhNCjhR1dn0" target="__blank">
               <img src={superBowlLVII} alt="Video Thumbnail" />
             </a>
