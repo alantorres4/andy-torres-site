@@ -77,9 +77,10 @@ import '../../node_modules/react-modal-video/scss/modal-video.scss';
 function Projects() {
 
   const [isOpen, setOpen] = useState(false);
-  const [videoId, setVideoId] = useState(0);
+  const [videoId, setVideoId] = useState("0");
 
   const openModalWithVideo = (newVideoId) => {
+    console.log('huh:', newVideoId);
     setVideoId(newVideoId); 
     setOpen(true);
   };
@@ -219,15 +220,13 @@ function Projects() {
       <div className="grid-container">
         <div className="grid-item">
         <Fade triggerOnce>
-              {/* Super Bowl LVII Show Open video  */}
-              <ModalVideo channel='vimeo' autoplay isOpen={isOpen} videoId={videoId} onClose={() => setOpen(false)} />
-              <a onClick={() => setOpen(true)} className="atag-no-style" target="__blank">Watch <i className="fa fa-play-circle"></i> </a>
-
+            {/* Super Bowl LVII Show Open video  */}
             <a href="https://www.youtube.com/watch?v=yhNCjhR1dn0" target="__blank">
               <img src={superBowlLVII} alt="Video Thumbnail" />
             </a>
+
             <div className="grid-container-text">
-                <h3 className="grid-container-text-title">Super Bowl LVII Show Open</h3>
+                <h3 className="grid-container-text-title">Super Bowl LVII Show Oen!</h3>
                 <p className="grid-container-text-subtitle">FanDuel</p>
             </div>
         </Fade>
@@ -534,10 +533,13 @@ function Projects() {
             </div>
         </Fade>
         </div>
-        
+
 
 
       </div>
+        
+      <p>Hi</p>
+        
 
 
     </div>
